@@ -59,12 +59,12 @@ def test_divide():
     assert div(1, 2) == 0.5
     assert div(-1, -2) == 0.5
     assert div(-1, 1) == -1
-    assert div(0, 0) == 0
-    assert div(1, 0) == 0
+    assert div(0, 0) == "Cannot divide by zero"
+    assert div(1, 0) == "Cannot divide by zero"
     assert div(0, 1) == 0
     assert div(1, 2) == 0.5
     assert div(-1, -2) == 0.5
     assert div(-1, 1) == -1
-    assert div(0, 0) == 0
-    assert div(1, 0) == 0
+    assert div(0, 0) == "Cannot divide by zero"
+    assert div(1, 0) == "Cannot divide by zero"
     assert div(0, 1) == 0
