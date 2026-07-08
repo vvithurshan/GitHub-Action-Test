@@ -55,6 +55,7 @@ def test_multiply():
     assert mul(0, 1) == 0
 
 def test_divide():
+    # zero division error
     assert div(1, 2) == 0.5
     assert div(-1, -2) == 0.5
     assert div(-1, 1) == -1
